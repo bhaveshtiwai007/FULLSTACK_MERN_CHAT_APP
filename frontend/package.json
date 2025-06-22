@@ -18,8 +18,13 @@
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-router-dom": "^7.6.2",
+    "rollup": "^3.29.4",
     "socket.io-client": "^4.8.1",
-    "zustand": "^5.0.5"
+    "zustand": "^5.0.5",
+    "@ampproject/remapping": "^2.3.0",
+    "enhanced-resolve": "^5.18.1",
+     "magic-string": "^0.30.17",
+        "source-map-js": "^1.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
