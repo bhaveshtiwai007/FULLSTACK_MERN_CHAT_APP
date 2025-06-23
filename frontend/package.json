@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ampproject/remapping": "^2.3.0",
     "@tailwindcss/vite": "^4.1.10",
     "axios": "^1.10.0",
+    "enhanced-resolve": "^5.18.1",
     "lucide-react": "^0.522.0",
+    "magic-string": "^0.30.17",
     "mern-chat-app": "file:..",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -20,11 +23,8 @@
     "react-router-dom": "^7.6.2",
     "rollup": "^3.29.4",
     "socket.io-client": "^4.8.1",
-    "zustand": "^5.0.5",
-    "@ampproject/remapping": "^2.3.0",
-    "enhanced-resolve": "^5.18.1",
-     "magic-string": "^0.30.17",
-        "source-map-js": "^1.2.1"
+    "source-map-js": "^1.2.1",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
@@ -34,6 +34,7 @@
     "autoprefixer": "^10.4.21",
     "daisyui": "^5.0.43",
     "eslint": "^9.25.0",
+    "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
